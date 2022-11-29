@@ -132,6 +132,11 @@ function App() {
               <p>{name}</p>
             ))}
             <h3>Average ppg: {numPlayers > 0 ? (totalPPG / numPlayers).toFixed(2) : 0.0}</h3>
+            <button onClick={() => {
+                setTotalPPG(0)
+                setNumPlayers(0)
+                setRosterPlayers([])
+            }}>Clear</button>
         </div>
         <div class="gallery-container">
             {filteredData.map((player, index) => ( // TODO: map bakeryData to BakeryItem components
