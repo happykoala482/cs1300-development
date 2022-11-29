@@ -107,7 +107,7 @@ function App() {
               <option value="Boston Celtics">Boston Celtics</option>
               <option value="Los Angeles Lakers">Los Angeles Lakers</option>
               <option value="Brooklyn Nets">Brooklyn Nets</option>
-              <option value="Phiadelphia 76ers">Philadelphia 76ers</option>
+              <option value="Philadelphia 76ers">Philadelphia 76ers</option>
             </select>
             <h2>Sort Players:</h2>
             <div>
