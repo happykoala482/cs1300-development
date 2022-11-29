@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Jaylen Brown",
+    "position": "Shooting Guard",
+    "team": "Boston Celtics",
+    "ppg": 26.1,
+    "rpg": 6.5,
+    "apg": 3.4,
+    "image": "images/jaylen-brown.png"
+  },
+  {
+    "name": "Jayson Tatum",
+    "position": "Small Forward",
+    "team": "Boston Celtics",
+    "ppg": 30.8,
+    "rpg": 7.7,
+    "apg": 4.6,
+    "image": "images/jayson-tatum.png"
+  },
+  {
+    "name": "Al Horford",
+    "position": "Center",
+    "team": "Boston Celtics",
+    "ppg": 11.2,
+    "rpg": 6.3,
+    "apg": 2.6,
+    "image": "images/al-horford.png"
+  },
+  {
+    "name": "LeBron James",
+    "position": "Small Forward",
+    "team": "Los Angeles Lakers",
+    "ppg": 25.4,
+    "rpg": 8.8,
+    "apg": 6.2,
+    "image": "images/lebron-james.png"
+  },
+  {
+    "name": "Anthony Davis",
+    "position": "Power Forward",
+    "team": "Los Angeles Lakers",
+    "ppg": 26.2,
+    "rpg": 12.8,
+    "apg": 2.7,
+    "image": "images/anthony-davis.png"
+  },
+  {
+    "name": "Russell Westbrook",
+    "position": "Point Guard",
+    "team": "Los Angeles Lakers",
+    "ppg": 15.3,
+    "rpg": 5.2,
+    "apg": 7.3,
+    "image": "images/russell-westbrook.png"
+  },
+  {
+    "name": "Ben Simmons",
+    "position": "Point Guard",
+    "team": "Brooklyn Nets",
+    "ppg": 8.4,
+    "rpg": 6.6,
+    "apg": 5.8,
+    "image": "images/ben-simmons.png"
+  },
+  {
+    "name": "Kevin Durant",
+    "position": "Power Forward",
+    "team": "Brooklyn Nets",
+    "ppg": 30.0,
+    "rpg": 6.6,
+    "apg": 5.4,
+    "image": "images/kevin-durant.png"
+  },
+  {
+    "name": "Kyrie Irving",
+    "position": "Point Guard",
+    "team": "Brooklyn Nets",
+    "ppg": 24.5,
+    "rpg": 4.3,
+    "apg": 4.2,
+    "image": "images/kyrie-irving.png"
+  },
+  {
+    "name": "James Harden",
+    "position": "Shooting Guard",
+    "team": "Philadelphia 76ers",
+    "ppg": 22.0,
+    "rpg": 7.0,
+    "apg": 10.0,
+    "image": "images/james-harden.png"
+  },
+  {
+    "name": "Tyrese Maxey",
+    "position": "Point Guard",
+    "team": "Philadelphia 76ers",
+    "ppg": 22.9,
+    "rpg": 3.5,
+    "apg": 4.4,
+    "image": "images/tyrese-maxey.png"
+  },
+  {
+    "name": "Joel Embiid",
+    "position": "Center",
+    "team": "Philadelphia 76ers",
+    "ppg": 32.1,
+    "rpg": 9.9,
+    "apg": 4.8,
+    "image": "images/joel-embiid.png"
+  }
+]

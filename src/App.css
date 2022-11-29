@@ -1,38 +1,62 @@
+html {
+  background-color: rgb(225, 225, 225);
+}
+
 .App {
-  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(225, 225, 225);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MainGrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-right: 35px;
+  align-items: start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: safe center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.PlayerCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 350px;
+  height:  550px;
+  padding: 30px;
+  /* border-radius */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.StatsDisplay {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Roster {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  /* border-radius */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: white;
+
 }
